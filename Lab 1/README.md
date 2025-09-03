@@ -150,7 +150,14 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
+* The three device costumes we considered (as shown in the video using our laptop in order):
+  1. Fun neon light
+  3. Light with text (Busy, Shared, Open ...)
+  4. Light without text (indicated using the tinkerbelle tool)
+
 \*\***Include sketches of what your devices might look like here.**\*\*
+<img width="341" height="148" alt="image" src="https://github.com/user-attachments/assets/323129dc-fd66-407b-a305-3cfef0175f00" />
+<img width="202" height="250" alt="image" src="https://github.com/user-attachments/assets/f7170c0f-37ec-4fb1-9be3-86b6a11593ec" />
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
@@ -158,7 +165,8 @@ Think about the setting of the device: is the environment a place where the devi
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+\*\**
+*Take a video of your prototyped interaction.**\*\*
 Video Interaction: https://drive.google.com/file/d/1cBeAqXiasgHr7Iz0Fk_OpIUnRj7PdKr-/view?usp=sharing
 
 \*\***Please indicate who you collaborated with on this Lab.**\*\*
