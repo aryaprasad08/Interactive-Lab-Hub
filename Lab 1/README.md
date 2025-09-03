@@ -155,6 +155,9 @@ Think about the setting of the device: is the environment a place where the devi
   3. Light with text (Busy, Shared, Open ...)
   4. Light without text (indicated using the tinkerbelle tool)
 
+
+
+
 \*\***Include sketches of what your devices might look like here.**\*\*
 <img width="341" height="148" alt="image" src="https://github.com/user-attachments/assets/323129dc-fd66-407b-a305-3cfef0175f00" />
 <img width="202" height="250" alt="image" src="https://github.com/user-attachments/assets/f7170c0f-37ec-4fb1-9be3-86b6a11593ec" />
