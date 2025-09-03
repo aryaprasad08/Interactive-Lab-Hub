@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-\*\***Arya Prasad and Jaspreet**\*\*
+\*\***Arya Prasad and Jaspreet Lal**\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -63,12 +63,23 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 To stage an interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+The interaction happens in a university library or study lounge. It is typically late afternoon or evening, when students are looking for spaces to work after classes or to meetup for group projects.
 
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+* Primary player: A student looking for a study room.
+* Secondary player: A student already inside the study room.
 
 _Activity:_ What is happening between the actors?
+A student walks down the hallway.They notice the light above a door.
+* If the light glows green, they open the door and enter since the room is free to be used.
+* If the light glows red, they continue walking to find another room since it is currently occupied (even if a student is not inside currently).
+* If the light glows yellow, the room has an upcoming booking in 10min, so it is kind of a warning sign.
+* If the light glows blue, the room is open for sharing with other students.
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+* The searching student’s goal is to quickly find an open study room without wasting time.
+* The student inside’s goal is to signal occupancy to others without being disturbed.
+* The device’s goal is to communicate room availability using light alone.
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
