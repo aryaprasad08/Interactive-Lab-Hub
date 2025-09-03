@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-\*\***Arya Prasad and Jaspreet Lal**\*\*
+\*\***Arya Prasad (ap2535) and Jaspreet Lal **\*\*
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -116,9 +116,11 @@ Present your ideas to the other people in your breakout room (or in small groups
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+* It was easier to change between lights, e.g., yellow light before the red light as a warning sign for an upcoming appointment.
+* Toggling between lights was something to keep track of while recording.
 
 \*\***Are there new ideas that occur to you or your collaborator that come up from the acting?**\*\*
-
+* While acting we realized we need to consider cases where the light is either Red (busy) or Blue (shared) but there is no student in the room
 
 ## Part C. Prototype the device
 
@@ -139,9 +141,8 @@ Feedback on Tinkerbelle tool: Simple and intuitive, but brightness was sometimes
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-A collaborator remotely toggled the colors during roleplay.
-First video attempt showed the searching student checking multiple rooms before finding a green light.
-Follow-up work: Changed the goal to “reserving the room.” The green indicated a confirmed booking.
+We remotely toggled the colors during roleplay to test it, so we don't have a set up video. We considered what the student would do if they needed to leave the room temporarily.
+Follow-up work: In this case, the student would leave the status light as red to indicate the occupied room. We also thought of using the door closing as a sensor where the status only changed when the door was closed.
 
 
 ## Part E. Costume the device
@@ -158,12 +159,17 @@ Think about the setting of the device: is the environment a place where the devi
 
 
 
+
 \*\***Include sketches of what your devices might look like here.**\*\*
+
+Other designs we considered:
 <img width="341" height="148" alt="image" src="https://github.com/user-attachments/assets/323129dc-fd66-407b-a305-3cfef0175f00" />
 <img width="202" height="250" alt="image" src="https://github.com/user-attachments/assets/f7170c0f-37ec-4fb1-9be3-86b6a11593ec" />
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+* We need to make sure the light is not too distracting since the room will be located in a study space, e.g., a library
+* 
 
 
 ## Part F. Record
