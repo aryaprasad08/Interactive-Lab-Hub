@@ -76,7 +76,8 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-\*\***Include pictures of your storyboards here**\*\*
+\*\***Storyboard pictures:**\*\*
+https://docs.google.com/document/d/1ozLUDDKiFT46ehj-3816TM5In5ePk1lSdjd8KqgHWms/edit?usp=sharing
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
@@ -129,6 +130,7 @@ Think about the setting of the device: is the environment a place where the devi
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+Video Interaction: https://drive.google.com/file/d/1cBeAqXiasgHr7Iz0Fk_OpIUnRj7PdKr-/view?usp=sharing
 
 \*\***Please indicate who you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
