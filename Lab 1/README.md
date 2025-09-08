@@ -209,7 +209,7 @@ Do last week’s assignment again, but this time:
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
 * New Prototype: Light that senses when someone enters the room, also is timed based on how long the room is booked for.
-* * Changes include: vibrations, and soft chimes to indicate room changes.
+  * Changes include: vibrations, and soft chimes to indicate room changes.
 * Costume prototype (this would include vibration and/or sound): https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%201/costumes%20Ib.pdf
 
 * Use this link to access storyboards: [https://drive.google.com/file/d/1ciAeErSYydt6YHpsM3TdmpUdVhnnLOYU/view?usp=sharing](https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboard%20strip%201b.pdf)
