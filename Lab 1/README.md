@@ -152,24 +152,23 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 * The three device costumes we considered (as shown in the video using our laptop in order):
-  1. Fun neon light
-  3. Light with text (Busy, Shared, Open ...)
-  4. Light without text (indicated using the tinkerbelle tool)
 
+In this case, the three design options include an emergency light bulb, a color-display screen, and a neon light. We also considered using a traffic light system to make it more fun. Since the intended location is likely a controlled indoor environment—such as the master’s studio—there are no concerns about rain or other harsh conditions. A straightforward solution could be a simple light fixture mounted near the entrance of the study rooms, where it can clearly signal availability without requiring additional environmental protections.
 
+<img width="572" height="139" alt="Screen Shot 2025-09-07 at 10 25 27 PM" src="https://github.com/user-attachments/assets/4ea77218-6d5e-432c-8d5f-3cdde99f2178" />
+<img width="460" height="350" alt="Screen Shot 2025-09-07 at 10 27 04 PM" src="https://github.com/user-attachments/assets/e76d084d-e579-4891-9147-8eec6cfe51a1" />
+<img width="362" height="277" alt="Screen Shot 2025-09-07 at 10 28 04 PM" src="https://github.com/user-attachments/assets/d95d3221-606f-490a-8935-e65855add99a" />
 
-
-
-\*\***Include sketches of what your devices might look like here.**\*\*
 
 Other designs we considered:
-<img width="341" height="148" alt="image" src="https://github.com/user-attachments/assets/323129dc-fd66-407b-a305-3cfef0175f00" />
-<img width="202" height="250" alt="image" src="https://github.com/user-attachments/assets/f7170c0f-37ec-4fb1-9be3-86b6a11593ec" />
 
 
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+
+\*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
 * We need to make sure the light is not too distracting since the room will be located in a study space, e.g., a library
-* 
+* We also need to create an audio cue to indicate a change in the status of the room (busy/open/shared)
+* A vibrating signal or small chime would be a great addition to this system.
 
 
 ## Part F. Record
@@ -202,3 +201,9 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+Our new prototype uses a lamp light, vibrations, and soft chimes to indicate room changes. See costumes here: costumes Ib.pdf
+
+Use this link to access storyboards: https://drive.google.com/file/d/1ciAeErSYydt6YHpsM3TdmpUdVhnnLOYU/view?usp=sharing
+
+Here is the video for prototype testing: https://drive.google.com/file/d/1lZOXsLnzuMxw086NuXe7IDtopj7kKWZX/view?usp=sharing
