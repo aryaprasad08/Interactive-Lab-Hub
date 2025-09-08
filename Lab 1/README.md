@@ -153,10 +153,11 @@ Think about the setting of the device: is the environment a place where the devi
 
 * The three device costumes we considered (as shown in the video using our laptop in order):
 
-In this case, the three design options include an emergency light bulb, a color-display screen (as shown in video), and a neon light with fun words. Since the intended location is likely a controlled indoor environment—such as the master’s studio—there are no concerns about rain or other harsh conditions. A straightforward solution could be a simple light fixture mounted near the entrance of the study rooms, where it can clearly signal availability without requiring additional environmental protections.
+The three design options include an emergency light bulb, a color-display screen (as shown in video), and a neon light with fun words. Since the intended location is likely a controlled indoor environment—such as the master’s studio—there are no concerns about rain or other harsh conditions. A straightforward solution could be a simple light fixture mounted near the entrance of the study rooms, where it can clearly signal availability without requiring additional environmental protections.
 
 <img width="572" height="139" alt="Screen Shot 2025-09-07 at 10 25 27 PM" src="https://github.com/user-attachments/assets/4ea77218-6d5e-432c-8d5f-3cdde99f2178" />
 <img width="328" height="224" alt="Screen Shot 2025-09-07 at 10 40 33 PM" src="https://github.com/user-attachments/assets/f57465b9-3e78-4be2-9889-dbef8ea7195e" />
+<img width="513" height="273" alt="Screen Shot 2025-09-07 at 10 43 29 PM" src="https://github.com/user-attachments/assets/6878ecf4-4c34-4734-8dba-5648e577e4b2" />
 <img width="362" height="277" alt="Screen Shot 2025-09-07 at 10 28 04 PM" src="https://github.com/user-attachments/assets/d95d3221-606f-490a-8935-e65855add99a" />
 
 
@@ -205,7 +206,7 @@ Do last week’s assignment again, but this time:
 
 * New Prototype: Light that senses when someone enters the room, also is timed based on how long the room is booked for.
 * * Changes include: vibrations, and soft chimes to indicate room changes.
-* Costume prototype (this would include vibration and/or sound) 
+* Costume prototype (this would include vibration and/or sound): https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%201/costumes%20Ib.pdf
 
 * Use this link to access storyboards: [https://drive.google.com/file/d/1ciAeErSYydt6YHpsM3TdmpUdVhnnLOYU/view?usp=sharing](https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboard%20strip%201b.pdf)
 
