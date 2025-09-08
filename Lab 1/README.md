@@ -194,6 +194,10 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from other groups. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+<img width="1172" height="574" alt="Screen Shot 2025-09-07 at 10 48 41 PM" src="https://github.com/user-attachments/assets/6e9c2ceb-51d3-40d0-967a-15c4785fc907" />
+<img width="1096" height="414" alt="Screen Shot 2025-09-07 at 10 48 20 PM" src="https://github.com/user-attachments/assets/1ee5bcbd-572a-4a3b-86b5-166462b1d4bd" />
+* My peers noted some confusion around the costume titles and suggested elaborating further for clarity. We created a file dedicated to the costumes for clarity in Part 2.
+* User testing was effective but could be improved by better simulating real entry and interaction sequences, which my partner and I executed for Part 2. 
 
 ## Make it your own
 
