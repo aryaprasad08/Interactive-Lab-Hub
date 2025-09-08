@@ -204,6 +204,6 @@ Do last week’s assignment again, but this time:
 
 Our new prototype uses a lamp light, vibrations, and soft chimes to indicate room changes. See costumes here: costumes Ib.pdf
 
-Use this link to access storyboards: https://drive.google.com/file/d/1ciAeErSYydt6YHpsM3TdmpUdVhnnLOYU/view?usp=sharing
+Use this link to access storyboards: [https://drive.google.com/file/d/1ciAeErSYydt6YHpsM3TdmpUdVhnnLOYU/view?usp=sharing](https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboard%20strip%201b.pdf)
 
-Here is the video for prototype testing: https://drive.google.com/file/d/1lZOXsLnzuMxw086NuXe7IDtopj7kKWZX/view?usp=sharing
+Here is the video for prototype testing: 
