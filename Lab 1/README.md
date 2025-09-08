@@ -153,16 +153,17 @@ Think about the setting of the device: is the environment a place where the devi
 
 * The three device costumes we considered (as shown in the video using our laptop in order):
 
-In this case, the three design options include an emergency light bulb, a color-display screen, and a neon light. We also considered using a traffic light system to make it more fun. Since the intended location is likely a controlled indoor environment—such as the master’s studio—there are no concerns about rain or other harsh conditions. A straightforward solution could be a simple light fixture mounted near the entrance of the study rooms, where it can clearly signal availability without requiring additional environmental protections.
+In this case, the three design options include an emergency light bulb, a color-display screen (as shown in video), and a neon light with fun words. Since the intended location is likely a controlled indoor environment—such as the master’s studio—there are no concerns about rain or other harsh conditions. A straightforward solution could be a simple light fixture mounted near the entrance of the study rooms, where it can clearly signal availability without requiring additional environmental protections.
 
 <img width="572" height="139" alt="Screen Shot 2025-09-07 at 10 25 27 PM" src="https://github.com/user-attachments/assets/4ea77218-6d5e-432c-8d5f-3cdde99f2178" />
-<img width="460" height="350" alt="Screen Shot 2025-09-07 at 10 27 04 PM" src="https://github.com/user-attachments/assets/e76d084d-e579-4891-9147-8eec6cfe51a1" />
+<img width="328" height="224" alt="Screen Shot 2025-09-07 at 10 40 33 PM" src="https://github.com/user-attachments/assets/f57465b9-3e78-4be2-9889-dbef8ea7195e" />
 <img width="362" height="277" alt="Screen Shot 2025-09-07 at 10 28 04 PM" src="https://github.com/user-attachments/assets/d95d3221-606f-490a-8935-e65855add99a" />
 
 
 Other designs we considered:
-
-
+We also considered using a traffic light system to make it more fun. We could also use a banner with lights on it.
+<img width="272" height="118" alt="Screen Shot 2025-09-03 at 5 04 35 PM" src="https://github.com/user-attachments/assets/ae0dada8-51d4-4c52-895f-7e79b482aea1" />
+<img width="460" height="350" alt="Screen Shot 2025-09-07 at 10 27 04 PM" src="https://github.com/user-attachments/assets/e76d084d-e579-4891-9147-8eec6cfe51a1" />
 
 
 \*\***What concerns or opportunities are influencing the way you've designed the device to look?**\*\*
@@ -202,8 +203,10 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-Our new prototype uses a lamp light, vibrations, and soft chimes to indicate room changes. See costumes here: costumes Ib.pdf
+* New Prototype: Light that senses when someone enters the room, also is timed based on how long the room is booked for.
+* * Changes include: vibrations, and soft chimes to indicate room changes.
+* Costume prototype (this would include vibration and/or sound) 
 
-Use this link to access storyboards: [https://drive.google.com/file/d/1ciAeErSYydt6YHpsM3TdmpUdVhnnLOYU/view?usp=sharing](https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboard%20strip%201b.pdf)
+* Use this link to access storyboards: [https://drive.google.com/file/d/1ciAeErSYydt6YHpsM3TdmpUdVhnnLOYU/view?usp=sharing](https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboard%20strip%201b.pdf)
 
-Here is the video for prototype testing: 
+* Here is the video for prototype testing: https://drive.google.com/file/d/1lZOXsLnzuMxw086NuXe7IDtopj7kKWZX/view
