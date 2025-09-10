@@ -141,8 +141,15 @@ Feedback on Tinkerbelle tool: Simple and intuitive, but brightness was sometimes
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+## My updates
 We remotely toggled the colors during roleplay to test it, so we don't have a set up video. We considered what the student would do if they needed to leave the room temporarily.
 Follow-up work: In this case, the student would leave the status light as red to indicate the occupied room. We also thought of using the door closing as a sensor where the status only changed when the door was closed.
+=======
+
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
+
+\*\***Show the follow-up work here.**\*\*
+## Class Updates
 
 
 ## Part E. Costume the device
