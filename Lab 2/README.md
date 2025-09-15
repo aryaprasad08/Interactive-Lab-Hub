@@ -1,5 +1,5 @@
 # Interactive Prototyping: The Clock of Pi
-**NAMES OF COLLABORATORS HERE**
+**Arya Prasad (ap2535)**
 
 Does it feel like time is moving strangely during this semester?
 
@@ -24,7 +24,7 @@ This guide covers how to pull updates without overwriting your completed work, h
 
 
 2. ### Get Kit and Inventory Parts
-Prior to the lab session on Thursday, taken inventory of the kit parts that you have, and note anything that is missing:
+Prior to the lab session on Thursday, taken inventory of the kit parts that you have, and note anything that is missing: No parts missing
 
 ***Update your [parts list inventory](partslist.md)***
 
