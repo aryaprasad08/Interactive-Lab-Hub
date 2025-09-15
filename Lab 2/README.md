@@ -190,7 +190,12 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+Night-Sky Clock
+Stars drift across the screen, and users press buttons to catch them.
 
+* The clock shows the time with a night-sky background.
+* A few stars appear on the screen, and pressing a button makes them light up.
+* A counter shows how many stars you’ve collected.
 
 # Prep for Part 2
 
