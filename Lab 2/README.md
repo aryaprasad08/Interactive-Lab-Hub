@@ -193,6 +193,8 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 Night-Sky Clock
 Stars drift across the screen, and users press buttons to catch them.
 
+https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%202/Screen%20Shot%202025-09-14%20at%209.53.54%20PM.png
+
 * The clock shows the time with a night-sky background.
 * A few stars appear on the screen, and pressing a button makes them light up.
 * A counter shows how many stars you’ve collected.
