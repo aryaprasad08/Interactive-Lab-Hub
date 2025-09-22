@@ -196,7 +196,7 @@ Stars drift across the screen
 ![IMG_0332](https://github.com/user-attachments/assets/5b035363-ea5c-48f3-805e-e156f8c794cd)
 
 * There are three stars:
-* * One big hour star
+  * One big hour star
   * One minute star
   * One second star
 * Each star moves across the screen according to the time
@@ -236,7 +236,7 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
-https://drive.google.com/drive/u/1/folders/1pMb11whIvwOBD__QdGL5X7O_fCvY2T7I
+https://drive.google.com/file/d/1Iji5BCFBAopPgwtqQwo1Q63iJoI2Agre/view?usp=sharing
 
 Contributions:
 * TAs during office hours and lab hours who helped me figure out how to get the Raspberry Pi working
