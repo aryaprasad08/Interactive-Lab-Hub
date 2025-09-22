@@ -191,14 +191,17 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 Night-Sky Clock
-Stars drift across the screen, and users press buttons to catch them.
+Stars drift across the screen
 
-<img width="844" height="600" alt="image" src="https://github.com/user-attachments/assets/33c28346-6c58-4e0b-9f62-7315846cc524" />
+![IMG_0332](https://github.com/user-attachments/assets/5b035363-ea5c-48f3-805e-e156f8c794cd)
 
-
-* The clock shows the time with a night-sky background.
-* A few stars appear on the screen, and pressing a button makes them light up.
-* A counter shows how many stars you’ve collected.
+* There are three stars:
+* * One big hour star
+  * One minute star
+  * One second star
+* Each star moves across the screen according to the time
+* Button A - turns on and off guide-lines for the stars' movement from left to right across the x-coordinate
+* Button B - turns on and off a comet-like trail noticeable in the seconds' star 
 
 # Prep for Part 2
 
@@ -220,6 +223,10 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
+![IMG_0331](https://github.com/user-attachments/assets/9f8a3a29-2d25-41ec-99cd-796c8e6862f3)
+![IMG_0329](https://github.com/user-attachments/assets/b12e03a8-53c9-4b7a-8975-dd6c63eba1ec)
+![IMG_0328](https://github.com/user-attachments/assets/f51e0d0c-4eeb-4575-a771-a6305146bd68)
+
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
@@ -228,6 +235,13 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+
+https://drive.google.com/drive/u/1/folders/1pMb11whIvwOBD__QdGL5X7O_fCvY2T7I
+
+Contributions:
+* TAs during office hours and lab hours who helped me figure out how to get the Raspberry Pi working
+* YouTube videos + Slack to connect Raspberry Pi 5 to WiFi
+* ChatGPT to help me calculate the coordinates on the clock to determine the positions of the stars as per the time
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
