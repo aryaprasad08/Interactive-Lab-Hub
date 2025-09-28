@@ -1,5 +1,5 @@
 # Chatterboxes
-**NAMES OF COLLABORATORS HERE**
+**Arya Prasad [ap2535] Jaspreet Lal [jl4536]**
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
@@ -237,7 +237,31 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
+##Verplank diagram:
 
+<img width="1348" height="707" alt="PNG image" src="https://github.com/user-attachments/assets/eabe2dff-0bf0-416c-8ca1-5abd3d12530a" />
+
+
+##Brainstorming interaction:
+<img width="1010" height="733" alt="Screen Shot 2025-09-28 at 1 13 34 PM" src="https://github.com/user-attachments/assets/9631f1cf-c53b-4fca-a9ac-b5ffb74c31b7" />
+<img width="849" height="644" alt="Screen Shot 2025-09-28 at 1 14 25 PM" src="https://github.com/user-attachments/assets/aa729d95-15d5-4c3d-979a-05612af75c2f" />
+<img width="768" height="698" alt="Screen Shot 2025-09-28 at 1 15 14 PM" src="https://github.com/user-attachments/assets/5e7ff2ac-5e4d-4a83-bffd-cbf2ada9c20b" />
+<img width="740" height="675" alt="Screen Shot 2025-09-28 at 1 15 21 PM" src="https://github.com/user-attachments/assets/573ec6c7-c396-4ea9-84bc-7885d711328b" />
+<img width="832" height="593" alt="Screen Shot 2025-09-28 at 1 15 26 PM" src="https://github.com/user-attachments/assets/05575f27-988a-4e3e-9d42-e0615c25518e" />
+<img width="664" height="694" alt="Screen Shot 2025-09-28 at 1 15 30 PM" src="https://github.com/user-attachments/assets/c737cde6-3e5a-408d-9c9b-be50534a0fcc" />
+<img width="652" height="709" alt="Screen Shot 2025-09-28 at 1 15 36 PM" src="https://github.com/user-attachments/assets/74b4ded5-824d-4fe5-b8b8-890420bdb38a" />
+
+
+##Storyboard:
+2DB91D07-E493-48AD-B43C-3F453CF20998_1_201_a
+![49E08614-5A6D-4347-9FC6-236AB810272C_1_201_a](https://github.com/user-attachments/assets/ca312221-ba5c-406e-85f1-0b6eadf84af3)
+![69F2336E-1A0D-44E4-9B1C-F6C9938A906C](https://github.com/user-attachments/assets/ce302dfa-f794-41f0-a8a6-263775fabcc8)
+![275D4E91-B013-4243-81B7-B102E653DB90](https://github.com/user-attachments/assets/e96aa4d6-9f34-4e9b-9873-02b12835feed)
+![51838EA6-C117-453F-84BA-F706DC344B9C_1_201_a](https://github.com/user-attachments/assets/265c14bd-13d9-4561-a6f3-11965e486fe1)
+![A2F347DC-D311-466D-A214-79888D488508_1_201_a](https://github.com/user-attachments/assets/216660e8-8562-4e59-931e-bfe06b5b60d5)
+![EF328C4F-20FF-4B6A-BAA6-393AB4268795](https://github.com/user-attachments/assets/a1b61058-48c8-48a6-b170-1855a2c1cb3d)
+
+ 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
@@ -247,6 +271,9 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+##Recorded interaction:
+https://drive.google.com/file/d/1u_3OkhGrxARDf5sqwKVKEyVudCLVKsal/view?usp=sharing
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
@@ -306,6 +333,7 @@ Answer the following:
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
+
 
 
 
