@@ -237,12 +237,12 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
-####Verplank diagram:
+##### Verplank diagram:
 
 <img width="1348" height="707" alt="PNG image" src="https://github.com/user-attachments/assets/eabe2dff-0bf0-416c-8ca1-5abd3d12530a" />
 
 
-####Brainstorming interaction:
+##### Brainstorming interaction:
 <img width="1010" height="733" alt="Screen Shot 2025-09-28 at 1 13 34 PM" src="https://github.com/user-attachments/assets/9631f1cf-c53b-4fca-a9ac-b5ffb74c31b7" />
 <img width="849" height="644" alt="Screen Shot 2025-09-28 at 1 14 25 PM" src="https://github.com/user-attachments/assets/aa729d95-15d5-4c3d-979a-05612af75c2f" />
 <img width="768" height="698" alt="Screen Shot 2025-09-28 at 1 15 14 PM" src="https://github.com/user-attachments/assets/5e7ff2ac-5e4d-4a83-bffd-cbf2ada9c20b" />
@@ -252,7 +252,7 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 <img width="652" height="709" alt="Screen Shot 2025-09-28 at 1 15 36 PM" src="https://github.com/user-attachments/assets/74b4ded5-824d-4fe5-b8b8-890420bdb38a" />
 
 
-####Storyboard:
+##### Storyboard:
 2DB91D07-E493-48AD-B43C-3F453CF20998_1_201_a
 ![49E08614-5A6D-4347-9FC6-236AB810272C_1_201_a](https://github.com/user-attachments/assets/ca312221-ba5c-406e-85f1-0b6eadf84af3)
 ![69F2336E-1A0D-44E4-9B1C-F6C9938A906C](https://github.com/user-attachments/assets/ce302dfa-f794-41f0-a8a6-263775fabcc8)
@@ -265,6 +265,21 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+To design the interaction for our speech-enabled device Nudge, my partner and I began by brainstorming possible scenarios where reminders would naturally come up in daily life. We used online collaborative tools like Canva and Google Docs to collect our ideas, jotting them down quickly and then grouping them into themes. This digital approach made it easy to visualize, reorganize, and refine our thoughts together in real time.
+
+From this process, we identified seven core categories of interactions:
+
+* Basic reminder setting – asking the device to remember a task.
+* Checking reminders – including cases when nothing is scheduled.
+* Same-day scheduling – only time required.
+* Different-day scheduling – date + time required.
+* Error handling – when the input is invalid or unclear.
+* Overlapping reminders – handling two things at the same time.
+* End-of-day wrap-up – summarizing completed reminders and saying goodnight.
+
+Once we had these categories, we wrote out short dialogue snippets for each, imagining how a natural back-and-forth conversation would sound. The focus was on keeping the interaction supportive, simple, and human-like rather than robotic.
+
+To test our ideas, we used Base44 to prototype Nudge’s behavior, programming it to respond with the tone and style we envisioned. We then recorded an interaction on Zoom, where one of us acted as the user and the other as Nudge (via the Base44 prototype). This demo allowed us to evaluate how natural the exchanges felt, refine our dialogues, and better understand how Nudge could fit into daily routines.
 
 ### Acting out the dialogue
 
@@ -272,7 +287,7 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
-####Recorded interaction:
+##### Recorded interaction:
 https://drive.google.com/file/d/1u_3OkhGrxARDf5sqwKVKEyVudCLVKsal/view?usp=sharing
 
 ### Wizarding with the Pi (optional)
@@ -333,6 +348,7 @@ Answer the following:
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
+
 
 
 
