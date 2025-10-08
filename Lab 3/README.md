@@ -391,12 +391,3 @@ The Wizard-of-Oz testing made it clear that real-world interactions are messier 
 To support future development, every interaction could be logged in a structured way, including the raw audio, transcription, and final action taken. This would create a valuable dataset for improving language models and error handling.
 
 Beyond speech, incorporating other sensing methods would make the system better. Gesture input could be used to dismiss or confirm reminders without speaking. Even lightweight visual input, like a small display or LED indicators, could clarify the device’s state.
-
-
-
-
-
-
-
-
-
