@@ -302,8 +302,45 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+   These are the design issues that could make Nudge feel more intuitive.
+
+   * Wording and feedback: The device’s responses sounded stiff and robotic. For example, it said “Reminder added” instead of something more natural like “Okay, I’ve set that reminder for 7 p.m.” Error messages such as “Didn’t catch that” also didn’t help users fix their input. People wanted clearer, more guiding prompts, for instance, suggesting options or asking for specific details when something was unclear.
+   * Timing: Users were confused by the delay between speaking and getting a response. Simple cues like a soft sound or blinking light while processing would make the interaction feel more responsive. People also preferred being able to say flexible times like “later today” or “in 20 minutes,” rather than only exact times.
+   * Misunderstandings: The system often failed to pick up intent in casual phrases like “Remind me about Mom.” Because it relied on strict keyword matching. Adding fuzzy matching and intent detection would help the device handle these more naturally.
+   * Users wanted a brief confirmation after finishing tasks to give a sense of closure and trust.
+   
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+   While Nudge is designed around voice, we found that relying only on speech can create confusion and limit accessibility. Introducing other interaction channels can make the system’s behavior clearer.
+
+  Visual feedback is something we could add. For example, an LED ring or light strip could communicate the device’s state at a glance — blue when it’s listening, yellow while processing, and green when a task is completed. These cues help users know what’s happening, especially in noisy settings where audio responses might be missed. A small display or e-ink panel could also show live transcriptions or upcoming reminders, giving users a quick way to verify or edit what the system heard.
+
+  Tactile feedback, like a gentle vibration, could signal that a reminder was saved, while a longer or double buzz could indicate an error or a need for clarification. This feedback is useful in situations where visual attention is limited, maybe when cooking or driving.
+
+  A web interface could provide a centralized place to view, edit, and manage reminders visually. 
+  
 3. Make a new storyboard, diagram and/or script based on these reflections.
+Scene 1: Idle Mode
+The device is on a kitchen counter in the early evening. The room is quiet. A soft blue light gently pulses around the base, signaling that Nudge is awake and ready to respond to a wake word. The user glances at it and immediately understands that it’s listening.
+
+Scene 2: Wake Word and Command
+The user says, “Nudge, remind me to call Mom at 7 p.m.” As soon as the wake word is spoken, the light brightens slightly to indicate that Nudge is actively listening. While the user speaks, the light holds steady. Once the command is finished, the light changes to yellow to show that the device is processing the request.
+
+Scene 3: Multimodal Confirmation
+Within a second, the light turns green. Nudge responds in a warm, clear voice:
+“Got it. I’ll remind you to call Mom tonight at seven.”
+The green light flashes once, giving a quick visual confirmation that the reminder has been set. The combination of tone and light makes the interaction feel natural and reassuring.
+
+Scene 4: Display Feedback
+On a small e-ink panel, the text “Call Mom at 7:00 PM” appears. This provides the user with a visual indication of what the device understands. If there’s an error, the user can tap the display to bring up quick edit options.
+
+Scene 5: Gesture Input for Correction
+The user notices that the time is incorrect. Instead of repeating the entire command, they tap and hold the top of the device to enter quick edit mode. The light shifts to soft white, signaling that the device is waiting for a correction. The user says, “Eight p.m.,” and Nudge updates the reminder. The light flashes green again, and the device confirms the change with a short response: “Updated. I’ll remind you at eight.”
+
+Scene 6: Reminder Notification
+At eight p.m., the LED ring turns orange and gives a brief double pulse, accompanied by a gentle chime. Nudge announces, “It’s time to call Mom,” and the reminder text appears on the e-ink screen. The user waves a hand over the device to dismiss the reminder. If they tap the display, the task is marked as done.
+   
 
 ## Prototype your system
 
@@ -315,6 +352,7 @@ The system should:
 *Document how the system works*
 
 *Include videos or screencaptures of both the system and the controller.*
+https://drive.google.com/file/d/13rie_ak0-cq1xNEr-kii4EEgyVFGneHg/view?usp=sharing
 
 <details>
   <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
@@ -334,20 +372,25 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The system handled basic reminder commands fairly well. It could pick up straightforward phrases, extract times like “7 p.m.” or “end of day,” and log reminders with the right status flags. These functions worked reliably in quiet settings with clear input.
+
+Where it struggled was in understanding more natural variation. Small differences in phrasing, accents, or background noise often led to misheard commands or failed matches. For example, if a reminder was stored as “Call Mom,” the system wouldn’t recognize “Mark the Mom reminder as done” because it required exact wording. This made the experience feel rigid and occasionally frustrating. More flexible language matching or semantic understanding would have made interactions smoother.
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+Using voice as the main input felt intuitive and hands-free. The speech output gave immediate confirmation.
+
+The controller, however, was extremely limited in vocabulary and interaction types. It only understood two command structures—“remind” and “complete”—and offered little support if users misspoke or deviated from the expected phrasing. Continuous listening also proved unreliable in environments with background chatter.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
-
+The Wizard-of-Oz testing made it clear that real-world interactions are messier than scripted scenarios. People use different words, speeds, and accents. For the system to meet its needs, it requires not just accurate transcription but also the ability to interpret intent in context. This could mean using time of day, previous reminders, or the user’s typical habits to infer what they meant when a command. Meaningful feedback through lights, sound, or quick clarifying prompts was also crucial for keeping interactions smooth.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+To support future development, every interaction could be logged in a structured way, including the raw audio, transcription, and final action taken. This would create a valuable dataset for improving language models and error handling.
+
+Beyond speech, incorporating other sensing methods would make the system better. Gesture input could be used to dismiss or confirm reminders without speaking. Even lightweight visual input, like a small display or LED indicators, could clarify the device’s state.
 
 
 
