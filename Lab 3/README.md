@@ -1,3 +1,4 @@
+<details>
 # Chatterboxes
 **Arya Prasad [ap2535] Jaspreet Lal [jl4536]**
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
@@ -231,6 +232,7 @@ pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $ python server.py
  * Debugger PIN: 162-573-883
 ```
 From a remote browser on the same network, check to make sure your webserver is working by going to `http://<YourPiIPAddress>:5000`. You should be able to see "Hello World" on the webpage.
+</details>
 
 ### Storyboard
 
