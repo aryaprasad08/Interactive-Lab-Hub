@@ -7,7 +7,7 @@ Collaborators: Nikhil Gangaram, Viha Srinivas, Jaspreet Lal
 
 For all sensor testing videos, you can view them in the **Lab 4/assets/videos/sensor_tests** folder. Apologies for the lack of rendering on the GitHub side but they are rendering properly when in VSCode.
 
-Video link: [twizzler.mov](assets/videos/sensor_tests/twizzler.mov)
+Video link: [twizzler.mov](sensor_tests/twizzler.mov)
 
 <video width="300" height="600" controls>
   <source src="assets/videos/sensor_tests/twizzler.mov" type="video/mp4">
@@ -17,39 +17,39 @@ Video link: [twizzler.mov](assets/videos/sensor_tests/twizzler.mov)
 
 #### Light/Proximity/Gesture sensor (APDS-9960)
 
-Video link: [color_proximity.mov](assets/videos/sensor_tests/color_proximity.mov)
+Video link: [color_proximity.mov](sensor_tests/color_proximity.mov)
 
 <video width="300" height="600" controls>
-  <source src="assets/videos/sensor_tests/color_proximity.mov" type="video/mp4">
+  <source src="sensor_tests/color_proximity.mov" type="video/mp4">
 </video>
 
-Video link: [color_test.mov](assets/videos/sensor_tests/color_test.mov)
+Video link: [color_test.mov](sensor_tests/color_test.mov)
 <video width="300" height="600" controls>
   <source src="assets/videos/sensor_tests/color_test.mov" type="video/mp4">
 </video>
 
-Video link: [gesture_test.mov](assets/videos/sensor_tests/gesture_test.mov)
+Video link: [gesture_test.mov](sensor_tests/gesture_test.mov)
 <video width="300" height="600" controls>
   <source src="assets/videos/sensor_tests/gesture_test.mov" type="video/mp4">
 </video>
 
 #### Rotary Encoder 
 
-Video link: [encoder.mov](assets/videos/sensor_tests/encoder.mov)
+Video link: [encoder.mov](sensor_tests/encoder.mov)
 <video width="300" height="600" controls>
   <source src="assets/videos/sensor_tests/encoder.mov" type="video/mp4">
 </video>
 
 #### Joystick 
 
-Video link: [joystick.mov](assets/videos/sensor_tests/joystick.mov)
+Video link: [joystick.mov](sensor_tests/joystick.mov)
 <video width="300" height="600" controls>
   <source src="assets/videos/sensor_tests/joystick.mov" type="video/mp4">
 </video>
 
 #### Distance Sensor
 
-Video link: [proximity.mov](assets/videos/sensor_tests/proximity.mov)
+Video link: [proximity.mov](sensor_tests/proximity.mov)
 <video width="300" height="600" controls>
   <source src="assets/videos/sensor_tests/proximity.mov" type="video/mp4">
 </video>
