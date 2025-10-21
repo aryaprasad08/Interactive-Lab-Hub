@@ -105,7 +105,7 @@ Build a cardboard prototype of your design. You will see that we've integrated a
 Here is a video walk-around of the AstroClicker prototype. If this video is not rendering properly, you can view it in the **assets/videos** folder for the mov called **walk_around.mov**.
 
 <video width="300" height="600" controls>
-  <source src="assets/videos/walk_around.mov" type="video/mp4">
+  <source src="videos/walk_around.mov" type="video/mp4">
 </video>
 
 # LAB PART 2
@@ -190,11 +190,11 @@ Most of these considerations are identical to the cardboard prototype, but we di
 Here are our two final videos with a walkthrough of the AstroClicker prototype in both software and hardware:
 
 <video width="300" height="600" controls>
-  <source src="assets/videos/software.mov" type="video/mp4">
+  <source src="videos/software.mov" type="video/mp4">
 </video>
 
 <video width="300" height="600" controls>
-  <source src="assets/videos/hardware.mov" type="video/mp4">
+  <source src="videos/hardware.mov" type="video/mp4">
 </video>
 
 ### AI Contributions 
