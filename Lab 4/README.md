@@ -5,12 +5,12 @@ Collaborators: Nikhil Gangaram, Viha Srinivas, Jaspreet Lal
 ## Part A
 ### Capacitive Sensing, a.k.a. Human-Twizzler Interaction 
 
-For all sensor testing videos, you can view them in the **Lab 4/assets/videos/sensor_tests** folder. Apologies for the lack of rendering on the GitHub side but they are rendering properly when in VSCode.
+For all sensor testing videos, you can view them in the **Lab 4/videos/sensor_tests** folder. Apologies for the lack of rendering on the GitHub side but they are rendering properly when in VSCode.
 
 Video link: [twizzler.mov](sensor_tests/twizzler.mov)
 
 <video width="300" height="600" controls>
-  <source src="assets/videos/sensor_tests/twizzler.mov" type="video/mp4">
+  <source src="sensor_tests/twizzler.mov" type="video/mp4">
 </video>
 
 ### Part B
@@ -25,33 +25,33 @@ Video link: [color_proximity.mov](sensor_tests/color_proximity.mov)
 
 Video link: [color_test.mov](sensor_tests/color_test.mov)
 <video width="300" height="600" controls>
-  <source src="assets/videos/sensor_tests/color_test.mov" type="video/mp4">
+  <source src="sensor_tests/color_test.mov" type="video/mp4">
 </video>
 
 Video link: [gesture_test.mov](sensor_tests/gesture_test.mov)
 <video width="300" height="600" controls>
-  <source src="assets/videos/sensor_tests/gesture_test.mov" type="video/mp4">
+  <source src="sensor_tests/gesture_test.mov" type="video/mp4">
 </video>
 
 #### Rotary Encoder 
 
 Video link: [encoder.mov](sensor_tests/encoder.mov)
 <video width="300" height="600" controls>
-  <source src="assets/videos/sensor_tests/encoder.mov" type="video/mp4">
+  <source src="sensor_tests/encoder.mov" type="video/mp4">
 </video>
 
 #### Joystick 
 
 Video link: [joystick.mov](sensor_tests/joystick.mov)
 <video width="300" height="600" controls>
-  <source src="assets/videos/sensor_tests/joystick.mov" type="video/mp4">
+  <source src="sensor_tests/joystick.mov" type="video/mp4">
 </video>
 
 #### Distance Sensor
 
 Video link: [proximity.mov](sensor_tests/proximity.mov)
 <video width="300" height="600" controls>
-  <source src="assets/videos/sensor_tests/proximity.mov" type="video/mp4">
+  <source src="asensor_tests/proximity.mov" type="video/mp4">
 </video>
 
 ### Part C
@@ -118,7 +118,7 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 #### Software
 
-We first started prototyping the software for the AstroClicker prototype, which you can find in the [astro_clicker_demo.py](astro_clicker_demo.py) file. Our main consideration when desigining teh script was that it should be user-friendly without feeling suffocating. After much prototyping, here is the code diagram that we landed on: 
+We first started prototyping the software for the AstroClicker prototype, which you can find in the [astro_clicker.py](astro_clicker_demo.py) file. Our main consideration when desigining teh script was that it should be user-friendly without feeling suffocating. After much prototyping, here is the code diagram that we landed on: 
 
 #### 1. Initialization and Data Structure
 
@@ -167,7 +167,7 @@ We first started prototyping the software for the AstroClicker prototype, which 
 
 Here is the code diagram that we landed on (with some help from Gemini): 
 
-![AstroClicker Code Diagram](assets/images/code_diagram.png "AstroClicker Code Diagram")
+![AstroClicker Code Diagram](images/code_diagram.png "AstroClicker Code Diagram")
 
 #### Hardware
 
