@@ -59,23 +59,23 @@ Video link: [proximity.mov](sensor_tests/proximity.mov)
 
 This is the AstroClicker, the idea is to have a device that helps you navigate the night sky. It uses the joystick as the primary input where the user can select what they're looking at and how far or close away to look.
 
-![AstroClicker](assets/images/ideas/astro_clicker.png "AstroClicker")
+![AstroClicker](images/astro_clicker.png "AstroClicker")
 
 Our next idea was the city Explorer, the idea is to have a device that helps you explore a new city and even find some hidden gems in the city you've been in for a while. These is the joystick that the user can use to select the next place to go, and the device will keep track of where you've been.
 
-![City Explorer](assets/images/ideas/city_explorer.png "City Explorer")
+![City Explorer](images/city_explorer.png "City Explorer")
 
 Our next idea was remote play, the idea is to have a device that allows you to remotely play with your pet. It's a combination of both a joystick input as well as a gyroscopic ball that moves around at the user command.
 
-![Remote Play](assets/images/ideas/remote_play.png "Remote Play")
+![Remote Play](images/remote_play.png "Remote Play")
 
 Our next idea was flashcards, we were inspired by devices like [Anki](https://www.ankiremote.com/) that help users learn a subject through flashcards. This was our spin on the device that allows the user to input through joystick instead of just buttons.
 
-![Flashcard Master](assets/images/ideas/flashcard_master.png "Flashcard Master")
+![Flashcard Master](images/flashcard_master.png "Flashcard Master")
 
 Our last idea was store navigator, the idea is to have a device that helps you navigate the labyrinth of aisles that are present in most grocery stores. The device will come preloaded with a map of whatever store you're in, and the user can navigate to an aisle and see if the item they're attempting to purchase is actually available.
 
-![Store Navigator](assets/images/ideas/store_navigator.png "Store Navigator")
+![Store Navigator](images/store_navigator.png "Store Navigator")
 
 Some questions that these sketches raise are:
 * How can we integrate other interesting modalities besides a display that we can use interact with the user?
@@ -89,11 +89,11 @@ We've chosen to continute working on the AstroClicker!!!
  
 These were the different designs we came up with for the AstroClicker:
 
-![AstroClicker Prototype 1](assets/images/placements/prototype_1.png "AstroClicker Prototype 1")
-![AstroClicker Prototype 1](assets/images/placements/prototype_1.png "AstroClicker Prototype 2")
-![AstroClicker Prototype 1](assets/images/placements/prototype_1.png "AstroClicker Prototype 3")
-![AstroClicker Prototype 1](assets/images/placements/prototype_1.png "AstroClicker Prototype 4")
-![AstroClicker Prototype 1](assets/images/placements/prototype_1.png "AstroClicker Prototype 5")
+![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 1")
+![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 2")
+![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 3")
+![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 4")
+![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 5")
 
 Here is some of the rationale for our initial design (which we based off of Prototype 1):
 * The device will be handheld, and so the joystick should be placed in ergonomic position.
@@ -179,9 +179,9 @@ We then got started on the hardware prototype, for which, these were out main co
 
 Most of these considerations are identical to the cardboard prototype, but we did make some changes to the hardware to make it more ergonomic. Here are some images of the prototype:
 
-![AstroClicker Prototype 1](assets/images/hardware/hardware_1.jpeg "AstroClicker Prototype 1")
-![AstroClicker Prototype 2](assets/images/hardware/hardware_2.jpeg "AstroClicker Prototype 2")
-![AstroClicker Prototype 3](assets/images/hardware/hardware_3.jpeg "AstroClicker Prototype 3")
+![AstroClicker Prototype 1](images/hardware_1.jpeg "AstroClicker Prototype 1")
+![AstroClicker Prototype 2](images/hardware_2.jpeg "AstroClicker Prototype 2")
+![AstroClicker Prototype 3](images/hardware_3.jpeg "AstroClicker Prototype 3")
 
 ---
 
