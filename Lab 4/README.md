@@ -189,8 +189,8 @@ Most of these considerations are identical to the cardboard prototype, but we di
 
 Here are our two final videos with a walkthrough of the AstroClicker prototype in both software and hardware:
 
-Video hardware: [color_proximity.mov](videos/software.mov)
-Video software: [color_proximity.mov](videos/hardware.mov)
+* Software: [software.mov](videos/software.mov)
+* Hardware: [hardware.mov](videos/hardware.mov)
 
 ### AI Contributions 
 
