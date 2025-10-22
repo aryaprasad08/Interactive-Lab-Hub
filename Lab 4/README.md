@@ -102,7 +102,7 @@ Here is some of the rationale for our initial design (which we based off of Prot
 
 Build a cardboard prototype of your design. You will see that we've integrated a lot of our initial rationale behind our initial design as we do the walk-through. The placeholder, for the battery was an alto scan, and the top cut out is for ventilation for the raspberry pi.
 
-Here is a video walk-around of the AstroClicker prototype. If this video is not rendering properly, you can view it in the **assets/videos** folder for the mov called **walk_around.mov**.
+Here is a video walk-around of the AstroClicker prototype. If this video is not rendering properly, you can view it in the **avideos** folder for the mov called **walk_around.mov**.
 
 <video width="300" height="600" controls>
   <source src="videos/walk_around.mov" type="video/mp4">
