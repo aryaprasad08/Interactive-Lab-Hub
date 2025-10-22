@@ -90,10 +90,10 @@ We've chosen to continute working on the AstroClicker!!!
 These were the different designs we came up with for the AstroClicker:
 
 ![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 1")
-![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 2")
-![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 3")
-![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 4")
-![AstroClicker Prototype 1](images/prototype_1.png "AstroClicker Prototype 5")
+![AstroClicker Prototype 1](images/prototype_2.png "AstroClicker Prototype 2")
+![AstroClicker Prototype 1](images/prototype_3.png "AstroClicker Prototype 3")
+![AstroClicker Prototype 1](images/prototype_4.png "AstroClicker Prototype 4")
+![AstroClicker Prototype 1](images/prototype_5.png "AstroClicker Prototype 5")
 
 Here is some of the rationale for our initial design (which we based off of Prototype 1):
 * The device will be handheld, and so the joystick should be placed in ergonomic position.
