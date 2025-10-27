@@ -1,7 +1,10 @@
+# Observant Systems
+
 Sachin Jojode, Viha Srinivas, and Nikhil Gangaram
 
-Part B
-Construct a simple interaction.
+### Part B
+### Construct a simple interaction.
+
 We're building up to a system that can teach abled people ASL in a more personalized way. Specifically, the north star of this project is to classify the user's gesture and then use MoonDream to give them a personalized response. We first tried to build a classical model trained through Teachable Machine (here) that could classify the gesture, but it was extremely high variance. Here is a screenshot of a "good" result on Teachable Machine:
 
 Good Result
@@ -17,8 +20,8 @@ Here is an image of the prototype flow:
 
 Prototype Flow
 
-Part C
-Test the interaction prototype
+### Part C
+### Test the interaction prototype
 Now flight test your interactive prototype and note down your observations:
 
 After testing our prototype, we found that lighting conditions and the relative time when the image is taken of the user had the largest impact on the system's performance. If the image is taken too early or the lighting is not "right", MoonDream seems to struggle when classifying the gesture. We also found that the interaction didn't map well to how humans communicate, that is, if we were learning from a teacher, there would be more subtlety and temporal variation in the interaction which isn't present in the current, rigid back and forth interaction. The prototype code is at moondream_sign.py.
