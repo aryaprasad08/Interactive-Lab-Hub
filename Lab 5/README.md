@@ -7,7 +7,7 @@ Sachin Jojode, Viha Srinivas, and Nikhil Gangaram
 
 We're building up to a system that can teach abled people ASL in a more personalized way. Specifically, the north star of this project is to classify the user's gesture and then use MoonDream to give them a personalized response. We first tried to build a classical model trained through Teachable Machine (here) that could classify the gesture, but it was extremely high variance. Here is a screenshot of a "good" result on Teachable Machine:
 
-Good Result
+[Good Result](https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%205/good_result.png)
 
 Instead, we pivoted to MoonDream, which seemed like a better fit for our task. Here is our plan for the simple interaction with MoonDream:
 
@@ -18,7 +18,7 @@ TTS model reads the feedback and speaks it back to the user.
 This could then be turned into an iterative loop, which repeats
 Here is an image of the prototype flow:
 
-Prototype Flow
+[Prototype Flow](https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%205/prototype_flow.png)
 
 ### Part C
 ### Test the interaction prototype
