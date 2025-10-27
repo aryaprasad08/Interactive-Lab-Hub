@@ -24,7 +24,7 @@ Here is an image of the prototype flow:
 ### Test the interaction prototype
 Now flight test your interactive prototype and note down your observations:
 
-After testing our prototype, we found that lighting conditions and the relative time when the image is taken of the user had the largest impact on the system's performance. If the image is taken too early or the lighting is not "right", MoonDream seems to struggle when classifying the gesture. We also found that the interaction didn't map well to how humans communicate, that is, if we were learning from a teacher, there would be more subtlety and temporal variation in the interaction which isn't present in the current, rigid back and forth interaction. The prototype code is at moondream_sign.py.
+After testing our prototype, we found that lighting conditions and the relative time when the image is taken of the user had the largest impact on the system's performance. If the image is taken too early or the lighting is not "right", MoonDream seems to struggle when classifying the gesture. We also found that the interaction didn't map well to how humans communicate, that is, if we were learning from a teacher, there would be more subtlety and temporal variation in the interaction which isn't present in the current, rigid back and forth interaction. The prototype code is at [moondream_sign.py](https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%205/moondream_sign.py).
 
 ***Think about someone using the system. Describe how you think this will work.***
 
@@ -34,7 +34,7 @@ How could change your interactive system to address this?
 Are there optimizations you can try to do on your sense-making algorithm.
 In this case, we found that there is already implicit frustration when trying to learn a new language. Thus, if the system ever said anything wrong, there is an immediate loss of user trust. In experimenting with other platforms, we came across [Google AI Live](https://aistudio.google.com/live) which performed much better than our initial prototype. The reason for this seems to be that they feed in the video of the user as opposed to a single frame. We believe this is a more natural way to capture the interaction from the user and will be exploring this in the second part of the lab. However, even Google's model struggled with longer videos and conversations where it assumes everything the user does is correct:
 
-Video link: google_ai_live.mov
+Video link: [google_ai_live.mov](https://github.com/aryaprasad08/Interactive-Lab-Hub/blob/Fall2025/Lab%205/google_ai_live.mov)
 
 ### Part D
 ### Characterize your own Observant system
