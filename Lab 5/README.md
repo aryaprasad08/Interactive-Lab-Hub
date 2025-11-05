@@ -65,8 +65,12 @@ It feels experimental and a bit fragile encouraging when it works but frustratin
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+Video Link: [Part D](https://www.youtube.com/watch?v=ZU5NM-oH540)
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+Video Link: [Part 2](https://www.youtube.com/shorts/vKblgSUKpPI)
