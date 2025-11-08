@@ -7,6 +7,7 @@ import mediapipe as mp
 import time
 import numpy as np
 import sys
+from sync_display import SyncDisplay 
 # Import the Synchronization class
 
 # --- Configuration ---
