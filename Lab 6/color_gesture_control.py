@@ -1,13 +1,21 @@
-# --- GESTURE COLOR CONTROL SCRIPT (STATIC THUMB DIRECTION) ---
-# Detects thumb direction (left or right) relative to the wrist to change color.
+# --- GESTURE PUBLISHER SCRIPT (Multi-Device Sync) ---
+# Detects thumb direction (left or right) and publishes the corresponding 
+# color command via MQTT using the SyncDisplay class.
 
 import cv2
 import mediapipe as mp
 import time
 import numpy as np
+import sys
+# Import the Synchronization class
+from sync_display import SyncDisplay 
+
+# --- FIX: Add current directory to the Python path ---
+import os
+sys.path.append(os.getcwd())
+# ---------------------------------------------------
 
 # --- Configuration ---
-# C270 performs best at these resolutions for performance on the Pi
 FRAME_WIDTH = 640
 FRAME_HEIGHT = 480
 
