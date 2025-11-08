@@ -9,7 +9,7 @@ import numpy as np
 import sys
 import os
 import colorsys 
-import threading # Only needed if SyncDisplay used it, keeping imports clean
+import threading 
 
 # --- CRITICAL FIX: Ensure current directory is in path for SyncDisplay ---
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -125,7 +125,7 @@ try:
                 if (current_time - last_gesture_time) > GESTURE_COOLDOWN_SEC:
                     
                     # Advance the color index (cycle through 0, 1, 2, ..., len-1)
-                    global color_index
+                    # Removed the 'global color_index' line which caused the SyntaxError
                     color_index = (color_index + 1) % len(ROYGBIV)
                     
                     active_color_rgb = ROYGBIV[color_index]
