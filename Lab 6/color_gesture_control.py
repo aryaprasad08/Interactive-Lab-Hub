@@ -7,12 +7,14 @@ import mediapipe as mp
 import time
 import numpy as np
 import sys
-import os # <--- Moved OS import up
+import os 
 
-# --- FIX: Add current directory to the Python path FIRST ---
-# This ensures sync_display.py can be found, even when run with 'sudo'
-sys.path.append(os.getcwd())
-# ---------------------------------------------------
+# --- CRITICAL FIX: Add this script's directory to the Python path FIRST ---
+# This ensures Python can find sync_display.py reliably, even when run with 'sudo'
+script_dir = os.path.dirname(os.path.abspath(__file__))
+if script_dir not in sys.path:
+    sys.path.append(script_dir)
+# -------------------------------------------------------------------------
 
 # Import the Synchronization class (Now it should work!)
 from sync_display import SyncDisplay 
