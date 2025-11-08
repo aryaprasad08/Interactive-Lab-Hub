@@ -12,8 +12,8 @@ FRAME_WIDTH = 640
 FRAME_HEIGHT = 480
 
 # Define the colors in BGR format (OpenCV default)
-COLOR_RIGHT_THUMB = (0, 255, 0)       # Green (Thumb points Right)
-COLOR_LEFT_THUMB = (255, 0, 0)        # Blue (Thumb points Left)
+COLOR_RIGHT_THUMB = (255, 0, 0)       # Green (Thumb points Right)
+COLOR_LEFT_THUMB = (0, 255, 0)        # Blue (Thumb points Left)
 COLOR_DEFAULT = (50, 50, 50)          # Dark Gray (rest state / hand not pointing)
 
 # --- Initialize MediaPipe Hand Detector ---
