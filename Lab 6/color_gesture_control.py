@@ -90,13 +90,13 @@ try:
             # the thumb is pointing to the physical RIGHT.
             if thumb_tip_x < wrist_x:
                 active_color = COLOR_RIGHT_THUMB
-                color_name = "RIGHT (Blue)"
+                color_name = "LEFT (Blue)"
             
             # If thumb tip is further left on the screen (larger X value) than the wrist, 
             # the thumb is pointing to the physical LEFT.
             elif thumb_tip_x > wrist_x:
                 active_color = COLOR_LEFT_THUMB
-                color_name = "LEFT (Green)"
+                color_name = "RIGHT (Green)"
 
 
             # Draw the hand landmarks
