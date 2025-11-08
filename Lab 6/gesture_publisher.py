@@ -1,6 +1,6 @@
-# --- RAINBOW GESTURE PUBLISHER SCRIPT (Multi-Device Sync) ---
-# Detects thumb direction (left or right) and maps the horizontal position 
-# of the thumb tip to the HUE of the color, broadcasting it via SyncDisplay.
+# --- RAINBOW GESTURE PUBLISHER SCRIPT (Discrete ROYGBIV Cycle) ---
+# Detects a thumb-pointing gesture (Left or Right) as a single command 
+# to cycle through the fixed ROYGBIV color sequence on all synchronized displays.
 
 import cv2
 import mediapipe as mp
@@ -8,23 +8,37 @@ import time
 import numpy as np
 import sys
 import os
-import colorsys # Python's built-in HSV to RGB conversion
+import colorsys 
+import threading # Only needed if SyncDisplay used it, keeping imports clean
 
 # --- CRITICAL FIX: Ensure current directory is in path for SyncDisplay ---
-# This prevents the 'name SyncDisplay is not defined' error under sudo
 script_dir = os.path.dirname(os.path.abspath(__file__))
 if script_dir not in sys.path:
     sys.path.append(script_dir)
-# --- Hardware Imports ---
 from sync_display import SyncDisplay 
 
 
 # --- Configuration ---
 FRAME_WIDTH = 640
 FRAME_HEIGHT = 480
+COLOR_DEFAULT_RGB = (50, 50, 50)       # Dark Gray (rest state)
+GESTURE_COOLDOWN_SEC = 0.5             # Time (in seconds) between acceptable gestures
 
-# Default RGB for rest state (Dark Gray)
-COLOR_DEFAULT_RGB = (50, 50, 50)       
+# --- ROYGBIV Color Sequence (RGB 0-255) ---
+ROYGBIV = [
+    (255, 0, 0),        # R: Red
+    (255, 165, 0),      # O: Orange
+    (255, 255, 0),      # Y: Yellow
+    (0, 128, 0),        # G: Green
+    (0, 0, 255),        # B: Blue
+    (75, 0, 130),       # I: Indigo
+    (238, 130, 238)     # V: Violet
+]
+
+# --- State Variables for Cycling ---
+color_index = 0
+last_gesture_time = time.time()
+
 
 # --- Initialize MediaPipe Hand Detector ---
 mp_hands = mp.solutions.hands
@@ -49,26 +63,6 @@ cap.set(cv2.CAP_PROP_FRAME_WIDTH, FRAME_WIDTH)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, FRAME_HEIGHT)
 print(f"Webcam initialized successfully at index {camera_index}.")
 
-# --- Functions for Dynamic Color Generation ---
-
-def hsv_to_rgb(h, s=1.0, v=1.0):
-    """Converts Hue (0.0-1.0), Saturation, and Value to RGB (0-255)."""
-    r, g, b = colorsys.hsv_to_rgb(h, s, v)
-    return int(r * 255), int(g * 255), int(b * 255)
-
-def get_rainbow_color(normalized_x):
-    """
-    Maps normalized X position (0.0 to 1.0) to a continuous Rainbow Hue.
-    
-    0.0 -> Red/Magenta
-    0.5 -> Green
-    1.0 -> Blue/Cyan
-    """
-    # Map the position (0.0 to 1.0) directly to the Hue (0.0 to 1.0).
-    # We invert 1-normalized_x to make the left side of the screen 
-    # match the start of the spectrum (Red).
-    hue = 1.0 - normalized_x
-    return hsv_to_rgb(hue)
 
 # --- Initialize SyncDisplay in 'both' mode ---
 try:
@@ -89,9 +83,9 @@ def draw_debug_info(frame, color_name, active_color_rgb):
     frame = cv2.addWeighted(frame, 0.7, overlay, 0.3, 0) # 70% frame, 30% overlay
 
     # Add text on top
-    text = f"HUE CONTROL: {color_name}"
+    text = f"COLOR: {color_name}"
     cv2.putText(frame, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 255, 255), 2, cv2.LINE_AA)
-    cv2.putText(frame, "Position controls HUE (Left=Red, Right=Blue). Press 'q' to quit.", 
+    cv2.putText(frame, "Point Thumb Left/Right to cycle ROYGBIV. Press 'q' to quit.", 
                 (10, FRAME_HEIGHT - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1, cv2.LINE_AA)
     
     return frame
@@ -101,6 +95,7 @@ try:
     sync.clear()
     
     while cap.isOpened():
+        current_time = time.time()
         success, frame = cap.read()
         if not success:
             time.sleep(0.05)
@@ -110,27 +105,32 @@ try:
         rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         results = hands.process(rgb_frame)
 
-        color_name = "Inactive / Neutral"
-        active_color_rgb = COLOR_DEFAULT_RGB
+        color_name = "Neutral"
+        active_color_rgb = ROYGBIV[color_index] # Always start with the current color
 
+        # --- Gesture Detection and Cycling Logic ---
+        gesture_detected = False
+        
         if results.multi_hand_landmarks:
             hand_landmarks = results.multi_hand_landmarks[0]
-            
             wrist_x = hand_landmarks.landmark[mp_hands.HandLandmark.WRIST].x
             thumb_tip_x = hand_landmarks.landmark[mp_hands.HandLandmark.THUMB_TIP].x
             
-            # --- Gesture Activation Logic ---
-            # If thumb tip is further right than the wrist OR further left than the wrist, 
-            # the pointing gesture is active.
+            # Check for pointing gesture (Left or Right)
             if thumb_tip_x != wrist_x: 
-                
-                # Use the wrist position (which represents the overall hand position)
-                # Note: wrist_x is normalized from 0.0 (right side of screen) to 1.0 (left side)
-                normalized_x = wrist_x 
-                
-                # Determine the continuous rainbow color based on the hand's horizontal position
-                active_color_rgb = get_rainbow_color(normalized_x)
-                color_name = f"Active ({normalized_x:.2f})"
+                gesture_detected = True
+                color_name = "Pointing Detected"
+
+                # Check if enough time has passed since the last successful gesture
+                if (current_time - last_gesture_time) > GESTURE_COOLDOWN_SEC:
+                    
+                    # Advance the color index (cycle through 0, 1, 2, ..., len-1)
+                    global color_index
+                    color_index = (color_index + 1) % len(ROYGBIV)
+                    
+                    active_color_rgb = ROYGBIV[color_index]
+                    color_name = f"NEXT ({['R', 'O', 'Y', 'G', 'B', 'I', 'V'][color_index]})"
+                    last_gesture_time = current_time # Reset cooldown timer
 
             # Draw the hand landmarks on the VNC frame
             mp.solutions.drawing_utils.draw_landmarks(
@@ -140,6 +140,11 @@ try:
                 mp.solutions.drawing_styles.get_default_hand_landmarks_style(),
                 mp.solutions.drawing_styles.get_default_hand_connections_style())
 
+        
+        # If no gesture was detected and the hand is invisible, use the default gray (rest state)
+        if not gesture_detected and not results.multi_hand_landmarks:
+             active_color_rgb = COLOR_DEFAULT_RGB
+             color_name = "Resting"
         
         # 1. Send Command to All Displays (Publish)
         sync.display_color(*active_color_rgb) 
@@ -153,14 +158,15 @@ try:
             break
 
 except Exception as e:
-    print(f"An error occurred: {e}")
+    print(f"\nAn error occurred: {e}")
     
 finally:
     # Cleanup resources
     if 'sync' in locals() and sync is not None:
         sync.clear()
         sync.stop()
-        
+        print("SyncDisplay stopped.")
+
     cap.release()
     cv2.destroyAllWindows()
     print("Webcam released. Program finished.")
